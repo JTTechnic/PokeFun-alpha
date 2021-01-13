@@ -1,0 +1,7 @@
+{
+    "prefix": "pf!",
+    "generations": ["1"],
+    "spawnrate": 10,
+    "minlevel": 1,
+    "maxlevel": 100
+}

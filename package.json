@@ -1,0 +1,25 @@
+{
+  "name": "pokefun",
+  "version": "0.1.0",
+  "description": "A discord bot for pokemon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PixelPizza/PokeFun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PixelPizza/PokeFun/issues"
+  },
+  "homepage": "https://github.com/PixelPizza/PokeFun#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "pokedex-promise-v2": "^3.3.0",
+    "pokemon.js": "^1.1.3"
+  }
+}
