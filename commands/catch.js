@@ -35,6 +35,7 @@ module.exports = {
                 .setDescription(`${message.author} thats the wrong pokémon\nOr is this a Bug? Do pf!report <bug> to report`)
             );
         }
+        client.spawnedPokemon.delete(message.guild.id);
         const level = Math.ceil(Math.random() * (maxlevel - minlevel)) + minlevel;
         // TODO add moves to pokemon
         const currentPokemon = client.pokemon.has(message.author.id) ? client.pokemon.get(message.author.id) : [];
